@@ -1,0 +1,17 @@
+.guide-container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+.guide-list {
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
+.guide-list li {
+  margin-bottom: 5px;
+}
+
+.box p {
+  line-height: 1.7;
+}

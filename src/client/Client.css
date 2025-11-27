@@ -1,0 +1,92 @@
+.client-container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+/* 테이블 아래 여백 */
+.table-box {
+  margin-bottom: 25px;
+}
+
+/* 상담 글쓰기 버튼 */
+.btn-submit {
+  margin-top: 10px;
+}
+/* 작성 폼 label */
+.form-label {
+  font-weight: 600;
+  color: #3A6FF3;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* 작성 폼 컨테이너 */
+.box input,
+.box textarea {
+  background: white;
+}
+
+/* 질문 본문 */
+.content {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* 상담자 답변 박스 */
+.answer-box {
+  background: #fff;
+  border-left: 4px solid #3A6FF3;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+/* 답변이 없을 때 */
+.no-answer {
+  color: #888;
+  font-style: italic;
+}
+
+/* 추가 질문 입력창 */
+textarea {
+  background: white;
+}
+
+/* 날짜 */
+.date {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Select box 기본 스타일 */
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  background: white;
+}
+
+/* 상담 동의 텍스트 */
+.consent-text {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* 체크박스 줄 */
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.followup-box {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+}

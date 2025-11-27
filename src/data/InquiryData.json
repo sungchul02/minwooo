@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+
+    "client": {
+      "age": 24,
+      "gender": "여성",
+      "region": "천안시 서북구",
+      "phone": "010-1111-2222",
+      "emergency": "010-3333-4444"
+    },
+
+    "content": {
+      "issue": "최근 불안으로 잠을 거의 자지 못함",
+      "currentState": "한 달 전부터 지속적으로 불안, 과제 압박 증가",
+      "goal": "불안을 줄이고 정상적인 수면 패턴 회복",
+      "detail": "시험 기간이 겹쳐 스트레스가 심해짐"
+    },
+
+    "consent": true,
+    "createdAt": "2025-11-20",
+
+    "counselor": {
+      "evaluation": "불안 반응이 학업 스트레스와 연관된 것으로 판단됨.",
+      "analysis": "내담자의 불안은 수면 부족과 스트레스 누적으로 악화되는 양상.",
+      "intervention": "수면 위생 관리법, 근육 이완 훈련, 호흡 조절 안내.",
+      "plan": "3일 후 다시 상태 체크. 필요 시 추가 개입.",
+      "replyDate": "2025-11-21"
+    },
+
+    "sessions": [
+      {
+        "session": 1,
+        "type": "initial",
+        "clientQuestion": "초기 상담 요청",
+        "counselorAnswer": "상담자의 1회기 답변(상단 counselor에서 제공)",
+        "date": "2025-11-21"
+      }
+    ],
+
+    "followUp": [
+      {
+        "session": 2,
+        "clientQuestion": "불안이 심해질 때 바로 쓸 수 있는 방법이 있을까요?",
+        "counselorAnswer": "호흡법 외에 점진적 근육 이완법을 추천합니다.",
+        "date": "2025-11-22"
+      },
+      {
+        "session": 3,
+        "clientQuestion": "수면 루틴이 무너질 때는 어떻게 해야 하나요?",
+        "counselorAnswer": "",
+        "date": "2025-11-23"
+      }
+    ],
+
+    "status": "진행중"
+  }
+]
