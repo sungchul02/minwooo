@@ -22,21 +22,15 @@ function ProtectedRoute({ element }) {
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/minwooo">
       <Routes>
-
-        {/* GUIDE */}
         <Route path="/guide" element={<Guide />} />
-
-        {/* CLIENT */}
         <Route path="/client" element={<ClientList />} />
         <Route path="/client/write" element={<ClientWrite />} />
         <Route path="/client/detail/:id" element={<ClientDetail />} />
 
-        {/* COUNSELOR LOGIN */}
         <Route path="/counselor-login" element={<CounselorLogin />} />
 
-        {/* COUNSELOR MAIN */}
         <Route
           path="/counselor"
           element={<ProtectedRoute element={<CounselorList />} />}
@@ -47,11 +41,11 @@ function Router() {
           element={<ProtectedRoute element={<CounselorDetail />} />}
         />
 
-        {/* DEFAULT */}
         <Route path="*" element={<Guide />} />
       </Routes>
     </BrowserRouter>
   );
 }
+
 
 export default Router;
